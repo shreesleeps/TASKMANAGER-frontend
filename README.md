@@ -11,13 +11,24 @@ Usage:
 ->Team Management: Admins can create teams, assign tasks, and manage progress.
 ->Task Options: Customize task statuses and types to fit specific workflows.
 
+-----------------------------
+
 email: "superadmin@email.com"
 email: "admin@email.com"
 email: "user@email.com"
 email: "user2@email.com"
+
 password:123 (for all emails)
 
 Anyone can signup via any random mail.
+
+-------------------------
+
+.env
+
+NEXT_PUBLIC_API_ENDPOINT=http://localhost:3001/api
+
+--------------------
 
 ## Getting Started
 
